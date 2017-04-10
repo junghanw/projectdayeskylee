@@ -1,0 +1,23 @@
+{
+    "Olympic Park": {
+        "lat": 37.5217852999999977,
+        "lng": 127.116520300000005 ,
+        "address": "424 Olympic-ro, Bangi-dong, Songpa-gu, Seoul",
+        "imgs": [
+            "park.png",
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+        ],
+        "hashtags": ["park", "hangout", "green", "flowers", "tree", "picnic", "colorful"]
+    },
+    "Naksan Park": {
+        "lat": 37.5803337,
+        "lng": 127.0072348,
+        "address": "54 Naksan-gil, Jongno-gu, Seoul",
+        "imgs": [],
+        "hashtags": ["mountain", "cityview", "nightview", "wallpainting", "cute", "streets", "shops"]
+    }
+}

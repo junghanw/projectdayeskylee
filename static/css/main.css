@@ -1,0 +1,193 @@
+body {
+    font-family: 'Lato', sans-serif;
+    min-width: 500px;
+}
+
+#sidebar-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: 0.3s;
+}
+#sidebar-toggle.open {
+    left: 375px;
+}
+.navigation {
+    position: absolute;
+    width: 360px;
+    top: 0;
+    bottom: 0;
+    left: -360px;
+    transition: 0.3s;
+    background: #49bafa;
+    z-index: 999;
+    color: white;
+    padding: 10px;
+}
+.navigation.open {
+    left: 0;
+}
+.navigation div a {
+    color: inherit;
+    text-decoration: none;
+}
+.nav-item {
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+.contact-icon {
+    background: url('/static/imgs/contact_icon.png') center;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-buttons {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: flex;
+}
+.social-buttons a {
+    color: inherit;
+    text-decoration: none;
+    width: 68px;
+    height: 68px;
+    display: inline-flex;
+    margin-right: 15px;
+}
+#linkedin-icon {
+    background: url('/static/imgs/social/social_linkedin.png') center;
+}
+#youtube-icon {
+    background: url('/static/imgs/social/social_youtube.png') center;
+}
+#facebook-icon {
+    background: url('/static/imgs/social/social_facebook.png') center;
+}
+#snapchat-icon {
+    background: url('/static/imgs/social/social_snapchat.png') center;
+}
+#instagram-icon {
+    background: url('/static/imgs/social/social_instagram.png') center;
+}
+.title-image-container {
+    height: 330px;
+
+}
+.title-image-container a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url('/static/imgs/title_image.png') center;
+}
+#google-map {
+    width: 100%;
+    min-height: 400px;
+    height: 640px;
+}
+#overlay {
+    display: none;
+}
+.close-overlay {
+    position: absolute;
+    top: 10px;
+    right: 24px;
+    font-size: 4rem;
+    cursor: pointer;
+    color: white;
+}
+#overlay.open {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+#image-slide-container {
+    position: absolute;
+    z-index: 100;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    min-height: 200px;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#image-slide-container.show {
+    display: block;
+}
+/* slick position absolute bug solution */
+.slick-list,
+.slick-track,
+.slick-slide h3 {
+   height: 100%;
+}
+/* slick padding between slide solution */
+.slick-slide {
+    margin: 0 27px;
+}
+.slick-list {
+    margin: 0 -27px;
+}
+.slick-prev {
+    left: -75px;
+}
+.slick-next{
+    right: -75px;
+}
+.slick-dots li button:before {
+    color: white !important;
+}
+#info-wrapper {
+    color: white;
+    font-size: 20px;
+}
+#info-wrapper ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+#info-wrapper ul li {
+    display: inline-flex;
+    position: relative;
+    padding-left: 24px;
+    margin: 0 auto
+    ;
+}
+#info-wrapper ul li i {
+    position: absolute;
+    left: 0;
+    top: 33%;
+}
+
+/* about page */
+#about-container {
+    background: url('/static/imgs/about/page.png') center;
+    display: none;
+    height: 750px;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}

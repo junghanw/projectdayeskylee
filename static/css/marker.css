@@ -1,0 +1,43 @@
+.marker-hover-content {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 1px;
+}
+.marker-hover-name {
+
+    font-weight: bold;
+}
+.marker-hover-address {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+.marker-hover-hashtags {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.marker-hover-hashtags li {
+    display: inline-flex;
+    margin-right: 5px;
+    position: relative;
+    padding-left: 17px;
+}
+.marker-hover-hashtags li i{
+    font-size: 14px;
+    position: absolute;
+    top: 33%;
+    left: 0;
+}
+.marker-hover-close {
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    cursor: pointer;
+}
+.gm-style-iw {
+   background-color: rgba(255,255,255,0.7);
+}
+
